@@ -34,4 +34,4 @@ RUN apk -v --update add \
     apk -v --purge del py-pip && \
     rm /var/cache/apk/*
 
-RUN npm install -g --no-shrinkwrap agneta-cli
+RUN npm install -g --no-shrinkwrap @agneta/cli
